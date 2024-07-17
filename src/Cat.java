@@ -1,8 +1,3 @@
-package src;
-
-import src.Food;
-import src.Cat;
-
 public class Cat {
     String name;
     int satietyLevel;

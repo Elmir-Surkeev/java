@@ -1,5 +1,3 @@
-package src;
-
 public class Food {
     String name;
     public int satietyValue;

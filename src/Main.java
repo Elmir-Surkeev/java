@@ -1,7 +1,3 @@
-package src;
-
-import src.Food;
-import src.Cat;
 
 import java.util.Scanner;
 import java.util.Random;

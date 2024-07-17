@@ -1,4 +1,4 @@
-package fifth_lesson.fifth_lesson_part2;
+package src;
 
 public class Food {
     String name;

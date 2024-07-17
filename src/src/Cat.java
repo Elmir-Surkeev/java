@@ -1,6 +1,7 @@
-package fifth_lesson_part2;
+package src;
 
-import fifth_lesson.fifth_lesson_part2.Food;
+import src.Food;
+import src.Cat;
 
 public class Cat {
     String name;

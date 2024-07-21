@@ -73,21 +73,21 @@ public class Main {
         boolean running = true;
         while (running) {
             tv.displayCurrentChannel();
-            System.out.println("Нажмите n для следующего канала, p для предыдущего канала, s для выбора конкретного канала, q для выхода:");
+            System.out.println("Нажмите 1 для следующего канала, 2 для предыдущего канала, 3 для выбора конкретного канала, 4 для выхода:");
             String input = scanner.next();
             switch (input) {
-                case "n":
+                case "1":
                     tv.nextChannel();
                     break;
-                case "p":
+                case "2":
                     tv.previousChannel();
                     break;
-                case "s":
+                case "3":
                     System.out.println("Введите номер канала:");
                     int channelNumber = scanner.nextInt();
                     tv.setChannel(channelNumber);
                     break;
-                case "q":
+                case "4":
                     running = false;
                     break;
                 default:
